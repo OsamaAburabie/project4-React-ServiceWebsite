@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../style.css';
 import { Link } from 'react-router-dom';
 import { FaUserCircle, FaSignOutAlt } from 'react-icons/fa';
+import Navi from '../Images/logo.png';
 
 function Nav() {
 	let isUser = JSON.parse(sessionStorage.getItem('isUser'));
@@ -18,11 +19,7 @@ function Nav() {
 			<div className="nav__left">
 				<div className="Nav__image">
 					<Link to="/">
-						<img
-							src="../Images/logo.png"
-							alt="logo jmom"
-							className="LogoWebsite"
-						/>
+						<img src={Navi} alt="logo jmom" className="LogoWebsite" />
 					</Link>
 				</div>
 
