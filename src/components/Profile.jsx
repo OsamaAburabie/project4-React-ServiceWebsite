@@ -66,12 +66,10 @@ function Profile() {
 				<div className="booked__bottom">
 					<div className="l__section">
 						<div className="image__bot__sec">
-							<img src={storedImage} alt="booked chalet" />
+							<img src={storedImage} />
 						</div>
 						<div className="chalet__name_">
-							<span style={{ fontStyle: 'bold' }}>
-								{storedChalet}
-							</span>
+							<span style={{ fontStyle: 'bold' }}>{storedChalet}</span>
 						</div>
 					</div>
 					<div className="r__section">
