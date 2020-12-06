@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+
+:root {
+	--First-color: #00317a;
+	--Second-color: #123468;
+	--Third-color: #214685;
+	--Fourth-color: #dcdcdc;
+	--Fifth-color: #81bcba;
+	--Sixth-color: #81bcba46;
+	--Seventh-color: rgba(8, 60, 119, 0.562);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.services__container {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	background-color: var(--Sixth-color);
+}
+
+.services__container h1 {
+	color: var(--Second-color);
+	padding: 2rem;
+	text-shadow: 2px 2px 2px var(--Seventh-color);
+	font-size: 3rem;
+	font-family: 'Sansita Swashed', cursive;
+}
+
+.effect7 {
+	position: relative;
+	-webkit-box-shadow: -15px 17px 5px rgba(0, 0, 0, 0.5),
+		0 0 28px rgb(0 0 0) inset;
+	-moz-box-shadow: -15px 17px 5px rgba(0, 0, 0, 0.5), 0 0 28px rgb(0 0 0) inset;
+	box-shadow: -15px 17px 5px rgba(0, 0, 0, 0.5), 0 0 28px rgb(0 0 0) inset;
+}
+
+/* Card */
+.services__container h3 {
+	margin: 0;
+	color: var(--Third-color);
+	font-size: 3rem;
+	padding: 2rem;
+	margin: 0 12rem;
+	text-shadow: 2px 2px 2px var(--Seventh-color);
+	font-family: 'Sansita Swashed', cursive;
+}
+
+.containerCard {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 4rem;
+	margin: 0 12rem;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-content: center;
+	background-color: var(--Seventh-color);
+}
+
+.card-info {
+	flex-basis: 20rem;
+	margin: 2rem;
+	border: 4px var(--Second-color) solid;
+	border-radius: 23px 0;
+	background-color: var(--Fourth-color);
+	box-shadow: 4px 4px 4px azure;
+	overflow: hidden;
+	color: var(--First-color);
+	position: relative;
+}
+
+.card-info h4 {
+	padding: 0.7rem;
+	color: var(--Second-color);
+	font-weight: bold;
+	font-family: 'Sansita Swashed', cursive;
+}
+
+.card-info p {
+	text-align: left;
+	padding: 0 1rem;
+	margin-bottom: 0.2rem;
+}
+
+.price {
+	font-weight: bold;
+	color: var(--Fifth-color);
+}
+
+.chalet-img-card {
+	height: 35vh;
+	width: 100%;
+	border-radius: 20px 0px 55% 0;
+	transition: all 0.3s ease 0s;
+}
+
+.image-card-div {
+	height: 35vh;
+	width: 100%;
+	margin-bottom: 4rem;
+}
+
+.image-card-div :hover {
+	border-radius: 20px 0;
+	transform: scale(1.5);
+}
+
+.btnBooking {
+	margin: 1rem;
+	background-color: var(--Second-color);
+	border: var(--Second-color) 2px solid;
+	color: var(--Fourth-color);
+	font-family: 'Sansita Swashed', cursive;
+	position: absolute;
+	bottom: 0;
+}
+
+.btnBooking:hover {
+	background-color: var(--Fifth-color);
+	transform: scale(0.9);
+}
+
+/* slider */
+.slider-container {
+	display: flex;
+	padding: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.sliderImg {
+	width: 89vw;
+	height: 82vh;
+}
+
+.space {
+	width: 100%;
+	height: 26vh;
+}
+
+/* Media Quere */
+
+@media screen and (max-width: 2447px) {
+	.containerCard {
+		margin: 0 6rem;
+		padding: 2rem;
+	}
+
+	.services__container h3 {
+		margin: 0 6rem;
+	}
+
+	.card-info {
+		margin: 1rem;
+	}
+}
+
+@media screen and (max-width: 1538px) {
+	.containerCard {
+		margin: 0px 2rem;
+	}
+
+	.services__container h3 {
+		margin: 0px 2rem;
+	}
+
+	.card-info {
+		margin: 1rem;
+	}
+}
+
+@media screen and (max-width: 952px) {
+	.containerCard {
+		padding: 1rem;
+	}
+}
+
+@media screen and (max-width: 746px) {
+	.sliderImg {
+		width: 100vw;
+	}
+}
+
+@media screen and (max-width: 491px) {
+	.sliderImg {
+		height: 60vh;
+	}
+}
+
+@media screen and (max-width: 1136px) {
+}

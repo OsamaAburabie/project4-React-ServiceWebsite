@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+
+:root {
+	--First-color: #00317a;
+	--Second-color: #123468;
+	--Third-color: #214685;
+	--Fourth-color: #dcdcdc;
+	--Fifth-color: #81bcba;
+	--Sixth-color: #81bcba46;
+	--Seventh-color: #16375bb4;
+	--Eighth-color: #f8f9fab4;
+}
+
+.book__container {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm27-tong-62-nature.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e50fb7e1dd5e1b00d8eeda4c1420420c);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2rem 0 6rem 0rem;
+}
+
+.book__container h1 {
+	color: var(--First-color);
+	padding: 2rem;
+	text-shadow: 2px 2px 2px var(--Seventh-color);
+	font-size: 3rem;
+	font-family: 'Sansita Swashed', cursive;
+}
+
+.book__container h1 .far,
+.paymedMethod h3 .far {
+	color: var(--Fifth-color);
+	margin: 0 1rem;
+	font-size: 3rem;
+}
+
+.bookSectoin {
+	background-color: var(--Seventh-color);
+	/* height: auto; */
+	/* width: auto; */
+	color: var(--Fourth-color);
+	padding: 3rem;
+	margin: 0 13rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.imageOne {
+	display: flex;
+	flex-wrap: wrap;
+	width: 23rem;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.chalet-img-book {
+	flex-basis: 20rem;
+	width: 20vw;
+	height: 20vh;
+	margin: 0.7rem 0;
+	box-shadow: 4px 2px 8px black;
+}
+
+.chalet-info-book {
+	display: flex;
+	flex-wrap: wrap;
+	width: 33rem;
+	color: var(--Second-color);
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	box-shadow: 8px 8px 10px var(--Second-color);
+	background-color: var(--Fourth-color);
+}
+
+.detailes {
+	width: 100%;
+	padding: 2rem;
+	color: var(--Fourth-color);
+	background-color: var(--Third-color);
+}
+
+.detailes h3 {
+	padding-bottom: 2rem;
+	text-shadow: 2px 2px 2px var(--Second-color);
+}
+
+.detailes h3,
+.paymedMethod h3 {
+	font-family: 'Sansita Swashed', cursive;
+}
+
+.detailes p {
+	text-align: left;
+}
+
+.btn-submit {
+	background-color: var(--Fifth-color);
+	font-weight: bold;
+	border: 1px 1px 1px var(--Fifth-color);
+}
+
+.btn-submit :hover {
+	background-color: var(--Third-color);
+}
+
+.paymedMethod {
+	background-color: var(--Eighth-color);
+	padding: 1rem;
+}
+
+.paymedMethod h3 .far {
+	font-size: 1rem;
+}
+
+.radioPaymen {
+	font-size: 1em;
+	font-weight: bold;
+	padding: 1rem;
+}
+
+.radioPaymen input {
+	margin-left: 1rem;
+}
+
+.card-img-Icon {
+	width: 12vw;
+	height: 5vh;
+	margin: 0.7rem 0;
+}
+
+.card-credit {
+	padding: 1rem;
+}
+
+.mb-0 {
+	color: var(--Fifth-color);
+}
+
+.col-form-label {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1490px) {
+	.bookSectoin {
+		margin: 0 4rem;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1136px) {
+	.chalet-img-book {
+		flex-basis: 16rem;
+	}
+
+	.imageOne {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 908px) {
+	.imageOne {
+		flex-direction: row;
+	}
+
+	.chalet-img-book {
+		flex-basis: 2rem;
+		margin: 1rem;
+		width: 27vw;
+		height: 22vh;
+	}
+}
+
+@media screen and (max-width: 636px) {
+	.chalet-img-book {
+		width: 36vw;
+		height: 20vh;
+	}
+
+	.bookSectoin {
+		margin: 0 2rem;
+	}
+}
+
+@media screen and (max-width: 419px) {
+	.bookSectoin {
+		margin: 0;
+	}
+
+	.chalet-img-book {
+		width: 66vw;
+	}
+}
+
+@media screen and (max-width: 1136px) {
+}

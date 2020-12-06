@@ -1,0 +1,454 @@
+:root {
+	--First-color: #00317a;
+	--Second-color: #123468;
+	--Third-color: #214685;
+	--Fourth-color: #dcdcdc;
+	--Fifth-color: #81bcba;
+}
+
+.page__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 60%;
+	height: 100vh;
+	margin: auto;
+	margin-top: 2rem;
+	overflow: hidden;
+}
+
+/* styling the profile sction */
+
+.profile__container {
+	width: 100%;
+	display: flex;
+	position: relative;
+}
+
+/* start name and profile image */
+.avatar {
+	display: flex;
+	width: 100%;
+	position: relative;
+}
+
+.avatar img {
+	width: 8rem;
+	height: 8rem;
+	border-radius: 35%;
+}
+
+.img__con {
+	display: flex;
+	flex-direction: column;
+}
+
+.name {
+	margin-left: 2.8rem;
+	margin-top: 0.5rem;
+	
+}
+
+/* end name and profile image */
+
+/* start information part */
+.info {
+	padding-left: 3rem;
+}
+
+.information {
+	color: var(--Second-color);
+    text-shadow: 2px 2px 2px var(--Seventh-color);
+    font-size: 2rem;
+    font-family: 'Sansita Swashed',
+        cursive;
+}
+
+.weather {
+	position: relative;
+	right: 5rem;
+}
+
+.phone__con,
+.email__con {
+	font-size: 17px;
+}
+
+.email,
+.phone {
+	font-size: 15px;
+	color: rgb(126, 126, 126);
+}
+
+/* End information part */
+
+/* Booked item section */
+
+.booked__title {
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+	padding-top: 2rem;
+	color: var(--Second-color);
+    text-shadow: 2px 2px 2px var(--Seventh-color);
+    font-size: 2rem;
+    font-family: 'Sansita Swashed',
+		cursive;
+}
+
+.box {
+	display: flex;
+	/* background: #DCDCDC; */
+	width: 100%;
+	/* align-items: center; */
+	padding: 0.75rem;
+	border: 1px solid gray !important;
+}
+
+.chalite__img img {
+	width: 6rem;
+	height: 6rem;
+	border-radius: 5px;
+	align-items: center;
+}
+
+.chalite__name {
+	padding: 1em 0 0 1em;
+}
+
+.descrebtion {
+	max-width: 20rem;
+	max-height: 10rem;
+	padding-left: 1rem;
+}
+
+/* Galaxy Fold */
+@media screen and (min-height: 653px) and (max-width: 280px) {
+	.page__container {
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+	.profile__container {
+		flex-direction: column;
+	}
+
+	.box {
+		width: 15.5rem;
+		/* margin: 0; */
+		margin-left: 1rem;
+	}
+
+	.chalite__img img {
+		width: 4rem;
+		height: 4rem;
+	}
+
+	.avatar img {
+		width: 4rem;
+		height: 4rem;
+		border-radius: 35%;
+		margin-left: 1rem;
+	}
+
+	.weather {
+		padding-left: 6rem;
+	}
+
+	.phone__con,
+	.email__con {
+		font-size: 15px;
+	}
+
+	.information {
+		font-size: 16px;
+	}
+
+	.email,
+	.phone {
+		font-size: 10px;
+	}
+
+	.name {
+		margin-left: 1.5rem;
+		margin-top: 0.5rem;
+	}
+
+	.booked__title {
+		font-size: 16px;
+	}
+
+	.chalite__name {
+		margin: 0;
+		padding-left: 0.75rem;
+	}
+
+	.descrebtion {
+		padding-left: 0.75rem;
+	}
+}
+
+.user__image {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 100px;
+	width: 100px;
+}
+.user__avatar_img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.user__name_cont {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.booked__bottom {
+	width: 30rem;
+	height: 10rem;
+	display: flex;
+}
+.l__section {
+	height: 100%;
+	width: 7rem;
+}
+.image__bot__sec {
+	border-radius: 35%;
+	width: 7rem;
+	height: 7rem;
+}
+.image__bot__sec img {
+	border-radius: 35%;
+	width: 7rem;
+	height: 7rem;
+}
+.chalet__name_ {
+	width: 100%;
+	height: 3rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.r__section {
+	height: 100%;
+	width: 23rem;
+	/* background-color: yellow; */
+}
+.t__rsection {
+	/* background-color: blue; */
+	width: 100%;
+	height: 7rem;
+	padding-left: 1rem;
+}
+.b__rsection {
+	width: 100%;
+	height: 3rem;
+	/* background-color: gray; */
+	display: flex;
+	justify-content: flex-end;
+}
+/* small devicess */
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+	.page__container {
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+	.box {
+		width: 20rem;
+		margin: 0;
+		margin-left: 1rem;
+	}
+
+	.chalite__img img {
+		width: 4rem;
+		height: 4rem;
+	}
+
+	.avatar img {
+		width: 4rem;
+		height: 4rem;
+		border-radius: 35%;
+		margin-left: 1rem;
+	}
+
+	.weather {
+		padding-left: 6rem;
+	}
+
+	.phone__con,
+	.email__con {
+		font-size: 15px;
+	}
+
+	.information {
+		font-size: 16px;
+	}
+
+	.email,
+	.phone {
+		font-size: 10px;
+	}
+
+	.name {
+		margin-left: 1.5rem;
+		margin-top: 0.5rem;
+	}
+
+	.booked__title {
+		font-size: 16px;
+	}
+
+	.chalite__name {
+		margin: 0;
+		padding-left: 0.75rem;
+	}
+
+	.descrebtion {
+		padding-left: 0.75rem;
+	}
+	.booked__bottom {
+		width: 100% !important;
+	}
+}
+
+/* Iphone 5SE */
+
+/* Ipad */
+@media screen and (max-width: 768px) and (min-width: 480px) {
+	.page__container {
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+	.box {
+		width: 25rem;
+		margin-left: 3rem;
+	}
+
+	.avatar img {
+		width: 6rem;
+		height: 6rem;
+		border-radius: 35%;
+		margin-left: 3rem;
+	}
+
+	.weather {
+		font-size: 20px;
+		/* margin-left: 4rem; */
+	}
+
+	.name {
+		margin-left: 4.5rem;
+		margin-top: 0.5rem;
+		font-size: 25px;
+	}
+
+	.phone__con,
+	.email__con {
+		font-size: 20px;
+	}
+
+	.information {
+		font-size: 25px;
+	}
+
+	.descrebtion {
+		font-size: 15px;
+	}
+	.chalite__img {
+		width: 6rem;
+		height: 6rem;
+	}
+	.chalite__img img {
+		width: 6rem;
+		height: 6rem;
+	}
+
+	.booked__title {
+		font-size: 25px;
+		margin-left: 1rem;
+		padding-left: 4rem;
+	}
+
+	.chalite__name {
+		margin: 0;
+	}
+
+	.email,
+	.phone {
+		font-size: 15px;
+		color: #ccc;
+	}
+}
+
+/* Ipad pro */
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+	.page__container {
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+	.box {
+		width: 50rem;
+		margin: 3rem;
+	}
+
+	.avatar img {
+		width: 11rem;
+		height: 11rem;
+		border-radius: 35%;
+		margin-left: 3rem;
+	}
+
+	.weather {
+		font-size: 35px;
+	}
+
+	.name {
+		margin-left: 5rem;
+		margin-top: 1.5rem;
+		font-size: 40px;
+	}
+
+	.phone__con,
+	.email__con {
+		font-size: 28px;
+	}
+
+	.information {
+		font-size: 30px;
+	}
+
+	.descrebtion {
+		font-size: 25px;
+		max-width: 35rem;
+	}
+
+	.chalite__img img {
+		width: 10rem;
+		height: 10rem;
+	}
+
+	.booked__title {
+		font-size: 35px;
+		margin-left: 1rem;
+		margin-top: 4rem;
+		padding-left: 4rem;
+	}
+
+	.chalite__name {
+		margin: 0;
+		padding: 1rem;
+		font-size: 35px;
+	}
+
+	.email,
+	.phone {
+		font-size: 23px;
+		color: #ccc;
+	}
+}
