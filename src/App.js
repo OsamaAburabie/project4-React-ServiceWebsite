@@ -22,7 +22,7 @@ localStorage.setItem(
 localStorage.setItem('Data', JSON.stringify({ name: '', info: '' }));
 function App() {
 	return (
-		<Router basename="/">
+		<HashRouter basename="/">
 			<div className="big__container">
 				<Mynav />
 				<Switch>
@@ -34,7 +34,7 @@ function App() {
 				</Switch>
 				<Footer />
 			</div>
-		</Router>
+		</HashRouter>
 	);
 }
 
