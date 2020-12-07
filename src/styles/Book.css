@@ -10,6 +10,9 @@
 	--Seventh-color: #16375bb4;
 	--Eighth-color: #f8f9fab4;
 }
+.DataPi {
+	width: 12rem !important;
+}
 
 .book__container {
 	width: 100%;

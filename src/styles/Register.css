@@ -18,18 +18,19 @@
 .signUp__container {
 	width: 50%;
 	display: flex;
+	text-align: center;
 	justify-content: center;
 	align-items: center;
 	border-right: 1px #c1c3c5 solid;
 }
-
 .signIn__container {
 	width: 50%;
-
+	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 .signin__form {
 	width: 50%;
 	display: flex;
@@ -37,12 +38,12 @@
 	flex-wrap: wrap;
 }
 .signin__form input {
-    width: 100%;
-    margin-bottom: 2%;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    background: var(--Fourth-color);
+	width: 100%;
+	margin-bottom: 2%;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	background: var(--Fourth-color);
 }
 
 /* .signin__form button {
@@ -52,14 +53,14 @@
 	background-color: var(--Fifth-color);
 } */
 .signin__form button {
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    color: #fff !important;
-    /* color: var(--Eighth-color); */
-    background-color: var(--Fifth-color);
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	color: #fff !important;
+	/* color: var(--Eighth-color); */
+	background-color: var(--Fifth-color);
 }
 .signup__form {
 	width: 50%;
@@ -72,18 +73,18 @@
 	margin-bottom: 2%;
 } */
 .signup__form input {
-    width: 100%;
-    margin-bottom: 2%;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    background: var(--Fourth-color);
+	width: 100%;
+	margin-bottom: 2%;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	background: var(--Fourth-color);
 }
 
 input:focus {
-    background: var(--Eighth-color);
-    border: var(--Second-color) 2px solid;
-    transition: all .2s ease;
+	background: var(--Eighth-color);
+	border: var(--Second-color) 2px solid;
+	transition: all 0.2s ease;
 }
 
 .signup__form p {
@@ -106,15 +107,14 @@ input:focus {
 } */
 
 .signup__form button {
-    width: 100%;
-    padding: 10px;
-    /* color: var(--Eighth-color); */
-    border-radius: 10px;
-    border: none;
-    color: #fff !important;
-    background-color: var(--Fifth-color);
+	width: 100%;
+	padding: 10px;
+	/* color: var(--Eighth-color); */
+	border-radius: 10px;
+	border: none;
+	color: #fff !important;
+	background-color: var(--Fifth-color);
 }
-
 
 @media screen and (max-width: 480px) and (min-width: 320px) {
 	.register__container {

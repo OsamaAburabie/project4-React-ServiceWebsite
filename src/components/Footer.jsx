@@ -5,7 +5,7 @@ import Youtube from '../Images/youtube.png';
 import Linkden from '../Images/linkedin.png';
 import Gram from '../Images/instgram.png';
 import Whatsapp from '../Images/whatsapp.png';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function Footer() {
 	return (
 		<footer>
@@ -22,17 +22,17 @@ function Footer() {
 			</div>
 			<div className="footer__mid">
 				<div className="social__media">
-					<a href="#">
+					<a href="https://www.youtube.com/">
 						{' '}
 						<img src={Youtube} alt="Youtube icon" />{' '}
 					</a>
-					<a href="#">
+					<a href="https://www.linkedin.com/in/jenan-musallam/">
 						<img src={Linkden} alt="Linkedin icon" />{' '}
 					</a>
-					<a href="#">
+					<a href="https://www.instagram.com/jenanmusallam96/">
 						<img src={Gram} alt="Instagram icon" />
 					</a>
-					<a href="#">
+					<a href="https://web.whatsapp.com/">
 						<img src={Whatsapp} alt="Whats app icon" />
 					</a>
 				</div>

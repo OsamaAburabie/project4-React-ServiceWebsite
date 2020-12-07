@@ -46,7 +46,6 @@
 .name {
 	margin-left: 2.8rem;
 	margin-top: 0.5rem;
-	
 }
 
 /* end name and profile image */
@@ -58,10 +57,9 @@
 
 .information {
 	color: var(--Second-color);
-    text-shadow: 2px 2px 2px var(--Seventh-color);
-    font-size: 2rem;
-    font-family: 'Sansita Swashed',
-        cursive;
+	text-shadow: 2px 2px 2px var(--Seventh-color);
+	font-size: 2rem;
+	font-family: 'Sansita Swashed', cursive;
 }
 
 .weather {
@@ -89,10 +87,9 @@
 	padding-left: 1rem;
 	padding-top: 2rem;
 	color: var(--Second-color);
-    text-shadow: 2px 2px 2px var(--Seventh-color);
-    font-size: 2rem;
-    font-family: 'Sansita Swashed',
-		cursive;
+	text-shadow: 2px 2px 2px var(--Seventh-color);
+	font-size: 2rem;
+	font-family: 'Sansita Swashed', cursive;
 }
 
 .box {
@@ -206,8 +203,10 @@
 }
 .booked__bottom {
 	width: 30rem;
-	height: 10rem;
+	height: 12rem;
 	display: flex;
+	background-color: #f4f4f4f4;
+	padding: 10px;
 }
 .l__section {
 	height: 100%;
@@ -244,11 +243,23 @@
 }
 .b__rsection {
 	width: 100%;
-	height: 3rem;
+	height: 5rem;
 	/* background-color: gray; */
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: flex-end;
+	padding-left: 1rem;
 }
+.date {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.numOF {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
 /* small devicess */
 
 @media screen and (max-width: 480px) and (min-width: 320px) {

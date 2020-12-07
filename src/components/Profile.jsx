@@ -22,9 +22,15 @@ function Profile() {
 	} else {
 		bookingData = JSON.parse(sessionStorage.getItem('Data'));
 	}
+	let isVissible = bookingData.vissible;
 	let storedChalet = bookingData.name;
 	let storedChaletInfo = bookingData.info;
 	let storedImage = bookingData.img;
+	let storedPeople = bookingData.numOfPeople;
+	let storedDate = bookingData.startDate;
+	let trimedDate = storedDate.substr(0, 10);
+	let location = bookingData.location;
+	let ownerNum = bookingData.phone;
 
 	if (isUser) {
 		return (
@@ -63,7 +69,10 @@ function Profile() {
 				</div>
 				<h4 className="booked__title">Booked Chalite</h4>
 
-				<div className="booked__bottom">
+				<div
+					style={{ display: isVissible ? '' : 'none' }}
+					className="booked__bottom"
+				>
 					<div className="l__section">
 						<div className="image__bot__sec">
 							<img src={storedImage} />
@@ -73,7 +82,20 @@ function Profile() {
 						</div>
 					</div>
 					<div className="r__section">
-						<div className="t__rsection">{storedChaletInfo}</div>
+						<div className="b__rsection">
+							<div className="date">
+								<span>Date: {trimedDate}</span>
+							</div>
+							<div className="numOF">
+								<span>Number of people: {storedPeople}</span>
+							</div>
+							<div className="numOF">
+								<span>Location: {location}</span>
+							</div>
+							<div className="numOF">
+								<span>Owner phone number: {ownerNum}</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

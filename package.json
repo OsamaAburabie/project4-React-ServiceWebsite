@@ -2,7 +2,6 @@
   "name": "project-4",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://OsamaAburabie.github.io/project4-React-ServiceWebsite",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

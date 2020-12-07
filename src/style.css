@@ -88,6 +88,7 @@ nav button {
 	width: 80px;
 	padding: 3px 0;
 	border-radius: 4px 4px;
+	border: none;
 	cursor: pointer;
 	transition: ease 0.2s;
 }
@@ -163,8 +164,8 @@ footer {
 	align-items: center;
 }
 
-.home___footer{
-	color: #FFF;
+.home___footer {
+	color: #fff;
 	font-size: 1.25em;
 	font-family: 'Sansita Swashed', cursive;
 	color: var(--Second-color);

@@ -1,0 +1,30 @@
+.Msg {
+	width: 500px;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 15px;
+	margin: 10% auto 0;
+}
+
+.Button-Close {
+	background: #3f6c89;
+	height: 50px;
+	line-height: 50px;
+	width: 50%;
+	border: none;
+	outline: none;
+	margin: auto !important;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 1.2em;
+	transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 650px) {
+	.Button .formBox {
+		width: 90%;
+	}
+}
+.Msg h3 h4 {
+	text-align: center;
+}
