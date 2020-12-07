@@ -67,7 +67,7 @@ function Profile() {
 						<WeatherRun />
 					</div>
 				</div>
-				<h4 className="booked__title">Booked Chalite</h4>
+				<h4 className="booked__title">Booked Chalet</h4>
 
 				<div
 					style={{ display: isVissible ? '' : 'none' }}
