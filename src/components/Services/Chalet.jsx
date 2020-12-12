@@ -32,8 +32,9 @@ const chalets = [
 		price: '220 JD',
 		image1: img1,
 		image2: img2,
-		number: '07 9007 8888',
+		number: '0790078888',
 		location: 'Dead Sea',
+		weather: 'Sea',
 	},
 	{
 		id: '2',
@@ -45,6 +46,7 @@ const chalets = [
 		image2: img4,
 		number: ' 0792828074 ',
 		location: 'Dead Sea ',
+		weather: 'Sea',
 	},
 	{
 		id: '3',
@@ -56,6 +58,7 @@ const chalets = [
 		image2: img6,
 		number: '0795391333',
 		location: 'Amman',
+		weather: 'Amman',
 	},
 	{
 		id: '4',
@@ -67,16 +70,18 @@ const chalets = [
 		image2: img8,
 		number: '0792820420',
 		location: 'Dead Sea',
+		weather: 'Sea',
 	},
 	{
 		id: '5',
 		name: 'Al Reef Chalet',
 		information: 'Relax and enjoy your day at al reef chalet ',
 		price: '200 JD',
-		image1: img9,
-		image2: img10,
+		image1: img10,
+		image2: img9,
 		number: '0777396166',
 		location: 'Salt',
+		weather: 'Salt',
 	},
 	{
 		id: '6',
@@ -87,7 +92,7 @@ const chalets = [
 		image1: img11,
 		image2: img12,
 		number: '0796689527',
-		location: 'Dead Sea',
+		location: 'Aqaba',
 	},
 	{
 		id: '7',
@@ -98,7 +103,8 @@ const chalets = [
 		image1: img13,
 		image2: img14,
 		number: '0776777799',
-		location: 'Dead Sea',
+		location: 'Aqaba',
+		weather: 'Aqaba',
 	},
 	{
 		id: '8',
@@ -110,6 +116,7 @@ const chalets = [
 		image2: img16,
 		number: '0795484332',
 		location: 'Amman',
+		weather: 'Amman',
 	},
 	{
 		id: '9',
@@ -121,6 +128,7 @@ const chalets = [
 		image2: img18,
 		number: '0792034741',
 		location: 'Dead Sea',
+		weather: 'Sea',
 	},
 	{
 		id: '10',
@@ -132,6 +140,7 @@ const chalets = [
 		image2: img20,
 		number: '0776345599',
 		location: 'Jarash',
+		weather: 'Jerash',
 	},
 	{
 		id: '11',
@@ -142,7 +151,8 @@ const chalets = [
 		image1: img21,
 		image2: img22,
 		number: '0794324599',
-		location: 'Amman',
+		location: 'Irbid',
+		weather: 'Irbid',
 	},
 	{
 		id: '12',
@@ -153,7 +163,8 @@ const chalets = [
 		image1: img23,
 		image2: img24,
 		number: '0776689527',
-		location: 'Amman',
+		location: 'Aqaba',
+		weather: 'Aqaba',
 	},
 ];
 export default chalets;

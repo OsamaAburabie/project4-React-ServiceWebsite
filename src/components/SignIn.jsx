@@ -30,6 +30,7 @@ export default class SignIn extends Component {
 		let username = this.state.username;
 		let userpw = this.state.userpw;
 		if (storedName === username && userpw === storedPass) {
+			console.log('you logged in');
 			this.setState({ isLoggedin: true });
 			sessionStorage.setItem('isUser', true);
 		} else {

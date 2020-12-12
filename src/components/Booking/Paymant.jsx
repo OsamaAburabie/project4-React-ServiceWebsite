@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import ImagesCard from '../../Images/Logos-01.png'
 function Paymant() {
 	function formSubmit(e) {
 		e.preventDefault();
@@ -10,7 +10,7 @@ function Paymant() {
 	}
 	return (
 		<div>
-			<img src="../Images/Logos-01.png" alt="" className="card-img-Icon" />
+			<img src={ImagesCard} alt="Payment Card" className="card-img-Icon" />
 			<form onSubmit={formSubmit}>
 				<div class="form-row">
 					<div class="form-group col-md-7">

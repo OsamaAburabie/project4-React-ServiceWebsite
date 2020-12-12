@@ -17,25 +17,53 @@ function Slides() {
 			>
 				<div className="carousel-inner">
 					<div className="carousel-item active" data-interval="10000">
-						<img src={slidImg2} className="d-block sliderImg" alt=" slider" />
+						<img
+							src={slidImg2}
+							className="d-block sliderImg"
+							alt="Image slider"
+						/>
 					</div>
 					<div className="carousel-item" data-interval="2000">
-						<img src={slidImg1} className="d-block sliderImg" alt=" slider" />
+						<img
+							src={slidImg5}
+							className="d-block sliderImg"
+							alt="Image slider"
+						/>
 					</div>
 					<div className="carousel-item" data-interval="2000">
-						<img src={slidImg3} className="d-block sliderImg" alt=" slider" />
+						<img
+							src={slidImg3}
+							className="d-block sliderImg"
+							alt="Image slider"
+						/>
 					</div>
 					<div className="carousel-item">
-						<img src={slidImg4} className="d-block sliderImg" alt=" slider" />
+						<img
+							src={slidImg4}
+							className="d-block sliderImg"
+							alt="Image slider"
+						/>
 					</div>
 					<div className="carousel-item">
-						<img src={slidImg5} className="d-block sliderImg" alt=" slider" />
+						<img
+							src={slidImg1}
+							className="d-block sliderImg"
+							alt="Image slider"
+						/>
 					</div>
 					<div className="carousel-item">
-						<img src={slidImg6} className="d-block sliderImg" alt=" slider" />
+						<img
+							src={slidImg6}
+							className="d-block sliderImg"
+							alt="Image slider"
+						/>
 					</div>
 					<div className="carousel-item">
-						<img src={slidImg7} className="d-block sliderImg" alt=" slider" />
+						<img
+							src={slidImg7}
+							className="d-block sliderImg"
+							alt="Image slider"
+						/>
 					</div>
 				</div>
 				<a

@@ -13,6 +13,8 @@ const Book = ({ match }) => {
 	const bookData = chalet.find((p) => p.id === match.params.id);
 
 	let dataTobe = {
+		weather: bookData.weather,
+		price: bookData.price,
 		name: bookData.name,
 		info: bookData.information,
 		img: bookData.image1,
@@ -48,10 +50,11 @@ const Book = ({ match }) => {
 						<h3>{bookData.name}</h3>
 						<p>{bookData.information}</p>
 						<p>Location: {bookData.location}</p>
+						<p>Phone:{bookData.number}</p>
 						<p className="price">Price : {bookData.price}</p>
 						<form onSubmit={formSubmtion}>
 							<div class="form-group row">
-								<div class="col-sm-4">
+								<div class="col-sm-5">
 									<input
 										class="DataPi"
 										type="Number"

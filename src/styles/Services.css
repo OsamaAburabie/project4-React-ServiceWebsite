@@ -82,6 +82,7 @@
 	text-align: left;
 	padding: 0 1rem;
 	margin-bottom: 0.2rem;
+	font-weight: bold;
 }
 
 .price {
@@ -159,7 +160,7 @@
 
 @media screen and (max-width: 1538px) {
 	.containerCard {
-		margin: 0px 2rem;
+		margin: 0px 1rem;
 	}
 
 	.services__container h3 {
@@ -174,6 +175,7 @@
 @media screen and (max-width: 952px) {
 	.containerCard {
 		padding: 1rem;
+		margin: 0px 0px;
 	}
 }
 
@@ -189,5 +191,4 @@
 	}
 }
 
-@media screen and (max-width: 1136px) {
-}
+@media screen and (max-width: 1136px) {}

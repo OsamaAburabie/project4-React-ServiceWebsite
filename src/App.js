@@ -22,6 +22,8 @@ localStorage.setItem(
 localStorage.setItem(
 	'Data',
 	JSON.stringify({
+		weather: 'Amman',
+		price: '',
 		name: '',
 		info: '',
 		img: '',

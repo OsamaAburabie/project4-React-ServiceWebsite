@@ -10,9 +10,6 @@
 	--Seventh-color: #16375bb4;
 	--Eighth-color: #f8f9fab4;
 }
-.DataPi {
-	width: 12rem !important;
-}
 
 .book__container {
 	width: 100%;
@@ -84,6 +81,13 @@
 	background-color: var(--Fourth-color);
 }
 
+.DataPi {
+	padding: 0.5rem;
+	border-radius: 8px;
+	width: 12rem;
+	margin-left: 8rem;
+}
+
 .detailes {
 	width: 100%;
 	padding: 2rem;
@@ -99,6 +103,15 @@
 .detailes h3,
 .paymedMethod h3 {
 	font-family: 'Sansita Swashed', cursive;
+}
+
+.detailes .paymedMethod h3 {
+	color: var(--Third-color);
+	text-shadow: 1px 1px 1px var(--Sixth-color);
+}
+
+.detailes .paymedMethod h3 .far {
+	font-size: 1.5rem;
 }
 
 .detailes p {
@@ -128,6 +141,8 @@
 	font-size: 1em;
 	font-weight: bold;
 	padding: 1rem;
+	color: var(--Second-color);
+
 }
 
 .radioPaymen input {
@@ -152,6 +167,54 @@
 	font-weight: bold;
 }
 
+/* Popup */
+.Msg {
+	width: 500px;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 15px;
+	margin: 10% auto 0;
+	text-align: center;
+}
+
+.Msg h2 {
+	color: var(--Fifth-color);
+
+}
+
+.Msg h5 {
+	color: var(--Second-color);
+	margin-top: 1rem;
+	font-size: 0.9rem;
+}
+
+.Button-Close {
+	background: var(--Second-color);
+	background: var(--Fifth-color);
+	height: 50px;
+	line-height: 50px;
+	width: 50%;
+	border: none;
+	border-radius: 12px;
+	outline: none;
+	margin: auto !important;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 1.2em;
+	transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 650px) {
+	.Button .formBox {
+		width: 90%;
+	}
+}
+
+.Msg h3 {
+	text-align: center;
+}
+
+/* End Popup */
 @media screen and (max-width: 1490px) {
 	.bookSectoin {
 		margin: 0 4rem;
@@ -203,5 +266,15 @@
 	}
 }
 
-@media screen and (max-width: 1136px) {
+@media screen and (max-width: 280px) {
+	.chalet-info-book {
+		width: 16rem;
+	}
+
+	.DataPi {
+		padding: 0.5rem;
+		border-radius: 8px;
+		width: 11rem;
+		margin-left: 0rem;
+	}
 }

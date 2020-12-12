@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Modal, Button, Row, Col, Form } from 'react-bootstrap';
-import './Booking.css';
+import '../../styles/Book.css';
 
 export class Popup extends Component {
 	constructor(props) {
@@ -17,7 +17,7 @@ export class Popup extends Component {
 				<Modal.Body>
 					<div className="Msg">
 						<h2>Thank You For Your Submission</h2>
-						<h4>Check your profile page for more information</h4>
+						<h5>Check your profile page for more information</h5>
 					</div>
 				</Modal.Body>
 				<Modal.Footer>

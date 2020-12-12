@@ -1,11 +1,12 @@
 import React from 'react';
 import '../styles/Home.css';
-import icon1 from '../Images/icon1.png';
-import icon2 from '../Images/icon2.jpg';
-import icon3 from '../Images/icon3.png';
-import rami from '../Images/rami.jpg';
-import mohammad from '../Images/mohammad.jpg';
-import khadejah from '../Images/khadejah.jpg';
+import icon1 from "../Images/icon1.png"
+import icon2 from "../Images/icon2.jpg"
+import icon3 from "../Images/icon3.png"
+import rami from "../Images/rami.jpg"
+import mohammad from "../Images/mohammad.jpg"
+import khadejah from "../Images/khadejah.jpg"
+import Typed from './Home_Page/Typed'
 
 import Chalet from '../components/video/Chalet.mp4';
 import Youtube from './Home_Page/Youtube';
@@ -17,15 +18,10 @@ function Home() {
 				<video autoPlay loop muted>
 					<source src={Chalet} type="video/mp4" />
 				</video>
-				<div class="contentText">
-					<h1>Welcome to JMOM</h1>
-					<p>
-						The best website to find the perfect place to spend your vacations
-						on
-						<br />
-						JMOM forget your "HMOM" ; )
-					</p>
-				</div>{' '}
+				<div>
+					<Typed />
+				</div>
+				{' '}
 			</div>
 			{/* End header*/}
 			{/* ================= Our_services =========================================== */}
@@ -105,8 +101,7 @@ function Home() {
 					<div className="profile buttom__profile">
 						<img
 							src="https://avatars1.githubusercontent.com/u/71769944?s=400&u=fd9f6f19861dbb2a0d1b72646faeb0b6386c7d70&v=4"
-							className="profile-img"
-							alt="person"
+							className="profile-img" alt='Developer Mohammad'
 						/>
 						<p className="user-name">Mohammad</p>
 					</div>
@@ -114,8 +109,7 @@ function Home() {
 					<div className="profile buttom__profile">
 						<img
 							src="https://avatars1.githubusercontent.com/u/67992414?s=400&u=c503c163561fb011dcfeac3d7b475735582b35c8&v=4"
-							className="profile-img"
-							alt="person"
+							className="profile-img" alt='Developer osama'
 						/>
 						<p className="user-name">Osama</p>
 					</div>
@@ -123,8 +117,7 @@ function Home() {
 					<div className="profile buttom__profile">
 						<img
 							src="https://avatars0.githubusercontent.com/u/71584632?s=400&u=6c5c79bcc14ba57e4882f11ec9566661fff2fc08&v=4"
-							className="profile-img"
-							alt="person"
+							className="profile-img" alt='Developer Mohammad'
 						/>
 
 						<p className="user-name">Mohammad Al-Agi</p>
@@ -133,8 +126,7 @@ function Home() {
 					<div className="profile buttom__profile">
 						<img
 							src="https://avatars2.githubusercontent.com/u/71584331?s=400&u=59e7fe47593366524b5851eeb4a6e4cd4fba1799&v=4"
-							className="profile-img"
-							alt="person"
+							className="profile-img" alt='Developer Jenan'
 						/>
 						<h3 className="user-name">Jenan</h3>
 					</div>

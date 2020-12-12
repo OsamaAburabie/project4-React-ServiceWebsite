@@ -41,11 +41,16 @@
 
 .contentText {
 	position: absolute;
-	top: 10%;
+	top: 5%;
 	padding: 1rem;
-	left: 10%;
+	left: 2%;
+	width: 40%;
 	background: #123468ad;
 	color: #fff;
+}
+
+.contentText p {
+	font-size: 1.2em;
 }
 
 /* Start style video */
@@ -56,8 +61,18 @@
 	text-align: center;
 	padding-bottom: 3rem;
 	color: var(--Second-color);
-    text-shadow: 2px 2px 2px var(--Seventh-color);
-    font-size: 2.5rem;
+	text-shadow: 2px 2px 2px var(--Seventh-color);
+	font-size: 2.5rem;
+}
+
+.contentText h1 {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.contentText .far {
+	color: var(--Fifth-color);
+	font-size: 1.3em;
+	padding-left: 2rem;
 }
 
 .Our_services {
@@ -111,8 +126,8 @@
 	font-family: 'Sansita Swashed', cursive;
 
 	color: var(--Second-color);
-    text-shadow: 2px 2px 2px var(--Seventh-color);
-    font-size: 2.5rem;
+	text-shadow: 2px 2px 2px var(--Seventh-color);
+	font-size: 2.5rem;
 }
 
 .Our_team {
@@ -136,8 +151,8 @@
 	padding-top: 3rem;
 
 	color: var(--Second-color);
-    text-shadow: 2px 2px 2px var(--Seventh-color);
-    font-size: 2.5rem;
+	text-shadow: 2px 2px 2px var(--Seventh-color);
+	font-size: 2.5rem;
 }
 
 .content {
@@ -172,6 +187,12 @@
 	padding-left: 1rem;
 }
 
+@media (max-width:1057px) {
+	.contentText {
+		width: 95%;
+	}
+}
+
 @media screen and (max-width: 480px) and (min-width: 280px) {
 	.profiles {
 		flex-direction: column;
@@ -196,6 +217,11 @@
 
 	.contentText {
 		left: 0;
+
+	}
+
+	.contentText h1 {
+		font-size: 1.5em;
 	}
 
 	.header__video video {
@@ -204,6 +230,7 @@
 }
 
 /*Mobile devices*/
+
 @media screen and (max-width: 768px) and (min-width: 480px) {
 	.profile .services-img {
 		height: 9rem;
@@ -262,8 +289,7 @@
 }
 
 /*Desktops, large screens*/
-@media screen and (max-width: 1200px) and (min-width: 1025px) {
-}
+@media screen and (max-width: 1200px) and (min-width: 1025px) {}
 
 /* @media only screen and (max-width: 1024px) {
 	.header__video video {
